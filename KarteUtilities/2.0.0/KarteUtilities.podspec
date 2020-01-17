@@ -7,10 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  version = `bash ./build.sh get-version -t KarteUtilities`
-
   s.name                    = 'KarteUtilities'
-  s.version                 = version
+  s.version                 = '2.0.0'
   s.summary                 = 'KARTE Utilities SDK'
   s.homepage                = 'https://karte.io'
   s.author                  = { 'PLAID' => 'dev.share@plaid.co.jp' }
